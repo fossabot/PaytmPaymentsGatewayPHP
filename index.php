@@ -41,7 +41,7 @@ $cust  = "CUST" . rand(1000, 999999);
 echo $order;
 ?></a></span>
                     <input class="input100" type="hidden" tabindex="1" maxlength="20" size="20" name="ORDER_ID" autocomplete="off" value="<?php
-echo $order;
+echo $cust;
 ?>" placeholder="Order ID for Tracking">
                 </div>
                 
