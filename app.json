@@ -1,0 +1,23 @@
+{
+    "name": "Paytm Payments Gateway",
+    "description": "Paytm Payments Gateway in PHP for Custom Payments",
+    "repository": "https://github.com/ParveenBhadooOfficial/PaytmPaymentsGatewayPHP",
+    "logo": "https://raw.githubusercontent.com/ParveenBhadooOfficial/PaytmPaymentsGatewayPHP/master/images/paytm.jpeg",
+    "keywords": ["php","paytm"],
+    "env": {
+        "Merchant_ID": {
+            "description": "Paytm Merchant's API ID"
+        },
+        "Merchant_Secret_Key": {
+            "description": "Paytm Merchant's API Secret"
+        },
+        "Environment": {
+            "description": "Environment (STAGING/PROD)",
+            "value": "PROD"
+        },
+        "Website": {
+            "description": "Merchant Website (usual value is DEFAULT)",
+            "value": "DEFAULT"
+        }
+    }
+}
