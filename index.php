@@ -41,14 +41,14 @@ $cust  = "CUST" . rand(1000, 999999);
 echo $order;
 ?></a></span>
                     <input class="input100" type="hidden" tabindex="1" maxlength="20" size="20" name="ORDER_ID" autocomplete="off" value="<?php
-echo $cust;
+echo $order;
 ?>" placeholder="Order ID for Tracking">
                 </div>
                 
                 <div class="wrap-input100">
                     <span class="label-input100">AMOUNT</span>
                     <input class="input100" type="hidden" tabindex="2" maxlength="12" size="12" name="CUST_ID" autocomplete="off" value="<?php
-echo $order;
+echo $cust;
 ?>" placeholder="Mobile Number" required>
                     <input class="input100" type="hidden" tabindex="4" maxlength="12" size="12" name="INDUSTRY_TYPE_ID" autocomplete="off" value="RETAIL" placeholder="RETAIL">
                     <input class="input100" type="hidden" tabindex="4" maxlength="12" size="12" name="CHANNEL_ID" autocomplete="off" value="WEB" placeholder="WEB/WAP">
