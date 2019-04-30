@@ -26,9 +26,9 @@ $cust  = "CUST" . rand(1000, 999999);
 
     <div class="container-contact100" style="background-image: url('https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooJS@1.0.12/images/bg-01.jpg');">
         <div class="wrap-contact100">
-            <form name='contact' class='contact100-form validate-form' method='POST' action='redirect/'><input type='hidden' name='form-name' value='contact' />
+            <form name='contact' class='contact100-form validate-form' method='POST' action='/redirect/'><input type='hidden' name='form-name' value='contact' />
                 <span class="contact100-form-title">
-                    <a class="navbar-brand" href="/"><img src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooJS@1.0.9/images/hashhackers_logo.webp" alt="Hash Hackers" width="200px" height="auto"> PG</a>
+                    <a class="navbar-brand" href="/mobile"><img src="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooJS@1.0.9/images/hashhackers_logo.webp" alt="Hash Hackers" width="200px" height="auto"> PG</a>
                 </span>
 
                 <div class="wrap-input100">
