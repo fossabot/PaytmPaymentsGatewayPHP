@@ -21,11 +21,6 @@ $cust  = "CUST" . rand(1000, 999999);
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooJS@1.0.12/css/util.css" integrity="sha256-g3SU8rSj3nvOuH156EGuSLlvgQgqJCGFjgax1dHhF/g=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooJS@1.0.12/css/main.css" integrity="sha256-tAZ13BHmfteiyply1ftKqhwlBUVmwBuTRJqH23oio1k=" crossorigin="anonymous">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script type="text/javascript">
-    if (screen.width <= 699) {
-    document.location = "/mobile";
-    }
-    </script>
 </head>
 <body>
 
