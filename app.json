@@ -18,10 +18,6 @@
         "Website": {
             "description": "Merchant Website (usual value is DEFAULT)",
             "value": "DEFAULT"
-        },
-        "Mode": {
-            "description": "WEB/WAP for Desktop and Mobile Mode",
-            "value": "WEB"
         }
     }
 }
