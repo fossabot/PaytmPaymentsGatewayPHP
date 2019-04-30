@@ -51,7 +51,6 @@ echo $order;
 echo $cust;
 ?>" placeholder="Mobile Number" required>
                     <input class="input100" type="hidden" tabindex="4" maxlength="12" size="12" name="INDUSTRY_TYPE_ID" autocomplete="off" value="RETAIL" placeholder="RETAIL">
-                    <input class="input100" type="hidden" tabindex="4" maxlength="12" size="12" name="CHANNEL_ID" autocomplete="off" value="WEB" placeholder="WEB/WAP">
                     <input class="input100" tabindex="10" type="number" name="TXN_AMOUNT" value=""" placeholder="Amount" required>
                 </div>
 
