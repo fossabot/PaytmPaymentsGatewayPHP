@@ -21,6 +21,11 @@ $cust  = "CUST" . rand(1000, 999999);
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooJS@1.0.12/css/util.css" integrity="sha256-g3SU8rSj3nvOuH156EGuSLlvgQgqJCGFjgax1dHhF/g=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooJS@1.0.12/css/main.css" integrity="sha256-tAZ13BHmfteiyply1ftKqhwlBUVmwBuTRJqH23oio1k=" crossorigin="anonymous">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script type="text/javascript">
+    if (screen.width <= 699) {
+    document.location = "/mobile";
+    }
+    </script>
 </head>
 <body>
 
@@ -51,7 +56,7 @@ echo $order;
 echo $cust;
 ?>" placeholder="Mobile Number" required>
                     <input class="input100" type="hidden" tabindex="4" maxlength="12" size="12" name="INDUSTRY_TYPE_ID" autocomplete="off" value="RETAIL" >
-                    <input class="input100" type="hidden" tabindex="4" maxlength="12" size="12" name="CHANNEL_ID" autocomplete="off" value="WAP" >
+                    <input class="input100" type="hidden" tabindex="4" maxlength="12" size="12" name="CHANNEL_ID" autocomplete="off" value="WEB" >
                     <input class="input100" tabindex="10" type="number" name="TXN_AMOUNT" value=""" placeholder="Amount" required>
                 </div>
 
