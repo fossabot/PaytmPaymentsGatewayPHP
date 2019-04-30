@@ -3,6 +3,7 @@ $MKEY    = getenv('Merchant_Secret_Key'); // Delete if deploying on custom serve
 $MMID    = getenv('Merchant_ID'); // Delete if deploying on custom server.
 $PENV    = getenv('Environment'); // Delete if deploying on custom server.
 $WEBSITE = getenv("Website"); // Delete if deploying on custom server.
+$MMODE   = getenv("Mode"); // Delete if deploying on custom server.
 
 define('PAYTM_ENVIRONMENT', $PENV); // Replace $PENV with "STAGING" or "PROD"
 define('PAYTM_MERCHANT_KEY', $MKEY); // Replace $MKEY with "Merchant Key" from Paytm Business Dashboard
