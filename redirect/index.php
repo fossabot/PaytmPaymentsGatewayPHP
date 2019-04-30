@@ -6,6 +6,7 @@ header("Expires: 0");
 require_once("./../lib/config.php");
 require_once("./../lib/encryption.php");
 include("./../lib/checksum.php");
+$MMODE   = getenv("Mode"); // Delete if deploying on custom server.
 ?>
 <html>
 <head>
