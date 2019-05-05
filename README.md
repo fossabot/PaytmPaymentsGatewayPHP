@@ -50,5 +50,10 @@ This product is extracted and redesigned from Paytm Source Code of Web Payments 
 ## Deploy to Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FParveenBhadooOfficial%2FPaytmPaymentsGatewayPHP.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FParveenBhadooOfficial%2FPaytmPaymentsGatewayPHP?ref=badge_shield)
 
 Original Source is available at [Paytm Github](https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_PHP)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FParveenBhadooOfficial%2FPaytmPaymentsGatewayPHP.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FParveenBhadooOfficial%2FPaytmPaymentsGatewayPHP?ref=badge_large)
